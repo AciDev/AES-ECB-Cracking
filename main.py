@@ -13,6 +13,7 @@ def main():
             (minimum_length - len(secret)) + ''.join(secret)
         print(starting_string)
         print(secret)
+        print(minimum_length - len(secret))
         first_blocks = getBlocks(encryptString(starting_string), block_size)
         for i in printable:
             #print("trying chracter", i)
